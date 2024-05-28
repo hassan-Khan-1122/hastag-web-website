@@ -47,7 +47,7 @@ function Dropdown() {
 
       {isOpen ? (
         <div
-          className=" w-full absolute h-[330px] left-0 mt-7 shadow-lg"
+          className=" w-full absolute h-[330px]   bg-white left-0 mt-7 shadow-lg"
           onMouseLeave={() => {
             setIsOpen(false);
           }}

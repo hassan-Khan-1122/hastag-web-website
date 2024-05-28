@@ -6,7 +6,7 @@ import Whatdo from "./Whatdo"
 
 export default function Header() {
   return (
-    <div className="w-full h-100 flex justify-between   item-center shadow-lg py-6 fixed px-6">
+    <div className="w-full h-100 flex justify-between   item-center shadow-lg py-6 px-6">
       <div className="logo w-[180px] ml-14">
         <img src="https://hashtag-web-portfolio.vercel.app/hashtagweb.png" />
       </div>

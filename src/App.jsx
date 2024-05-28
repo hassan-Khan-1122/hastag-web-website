@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
-import Hashtag from "./components/Hashtag";
+import Section from "./components/Section";
+import Sliders from "./components/Sliders";
 
 export default function App() {
   return (
@@ -9,8 +10,10 @@ export default function App() {
     <div>
       <BrowserRouter>
       <Header/>
+      <Section/>
+      <Sliders/>
       <Routes>
-        <Route to = "/hastag" element={<h1>djfvjdasvjkfvdsjfb</h1>}/>
+        {/* <Route to = "/section" element = {<Section/>}/> */}
       </Routes>
      
       </BrowserRouter>

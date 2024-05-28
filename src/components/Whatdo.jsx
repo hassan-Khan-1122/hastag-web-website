@@ -23,7 +23,7 @@ function Whatdo() {
 
       {IsOpen ? (
         <div
-          className="w-full absolute h-[330px] left-0 mt-7 shadow-lg "
+          className="w-full absolute h-[330px] left-0 mt-7 shadow-lg bg-white"
           onMouseLeave={() => setIsOpen(false)}
         >
           {/* Cross and developement sections */}
