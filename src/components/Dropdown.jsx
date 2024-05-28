@@ -8,11 +8,10 @@ import RunningWithErrorsIcon from "@mui/icons-material/RunningWithErrors";
 import ConnectWithoutContactIcon from "@mui/icons-material/ConnectWithoutContact";
 import WorkHistoryOutlinedIcon from "@mui/icons-material/ConnectWithoutContact";
 import FileCopyOutlinedIcon from "@mui/icons-material/ConnectWithoutContact";
-import WebOutlinedIcon from '@mui/icons-material/ConnectWithoutContact'
  import ShowChartOutlinedIcon from '@mui/icons-material/ConnectWithoutContact'
 
 function Dropdown() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
       <ul className="flex">
