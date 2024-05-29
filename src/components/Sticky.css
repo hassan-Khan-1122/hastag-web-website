@@ -1,0 +1,10 @@
+.paragraph {
+    position: sticky;
+    top: 20px; /* Adjust this value as needed */
+    height: auto;
+  }
+  
+  .images-grid {
+    height: 700px; /* Set the height of the container */
+    overflow-y: auto; /* Make the images container scrollable */
+  }
